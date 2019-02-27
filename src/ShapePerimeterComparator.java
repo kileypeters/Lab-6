@@ -60,11 +60,11 @@ public class ShapePerimeterComparator implements Comparator<Shape>
 		// TODO: complete this...
 		if (compare(s1, s2) == 0)
 		{
-			return true;
+			return compare(s1, s2) == 0;
 		}
 		else
 		{
-			return false;
+			return compare(s1, s2) != 0;
 		}
 	}
 }
