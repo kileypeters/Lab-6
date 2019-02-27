@@ -32,6 +32,11 @@ public class Rectangle extends Polygon {
 		this.height = height;
 		this.width = width;
 		
+		sideLengths.add(this.height);
+		sideLengths.add(this.height);
+		sideLengths.add(this.width);
+		sideLengths.add(this.width);
+		
 	}
 	
 	/**
